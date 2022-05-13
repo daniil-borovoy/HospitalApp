@@ -10,7 +10,7 @@
 
 #pragma warning disable 1591
 
-namespace WindowsFormsApp1 {
+namespace HospitalApp {
     
     
     /// <summary>
@@ -5350,7 +5350,7 @@ namespace WindowsFormsApp1 {
         }
     }
 }
-namespace WindowsFormsApp1.HospitalDataSetTableAdapters {
+namespace HospitalApp.HospitalDataSetTableAdapters {
     
     
     /// <summary>
@@ -5543,7 +5543,7 @@ namespace WindowsFormsApp1.HospitalDataSetTableAdapters {
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "17.0.0.0")]
         private void InitConnection() {
             this._connection = new global::System.Data.OleDb.OleDbConnection();
-            this._connection.ConnectionString = global::WindowsFormsApp1.Properties.Settings.Default.HospitalConnectionString;
+            this._connection.ConnectionString = global::HospitalApp.Properties.Settings.Default.HospitalConnectionString;
         }
         
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
@@ -6028,7 +6028,7 @@ namespace WindowsFormsApp1.HospitalDataSetTableAdapters {
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "17.0.0.0")]
         private void InitConnection() {
             this._connection = new global::System.Data.OleDb.OleDbConnection();
-            this._connection.ConnectionString = global::WindowsFormsApp1.Properties.Settings.Default.HospitalConnectionString;
+            this._connection.ConnectionString = global::HospitalApp.Properties.Settings.Default.HospitalConnectionString;
         }
         
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
@@ -6452,7 +6452,7 @@ namespace WindowsFormsApp1.HospitalDataSetTableAdapters {
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "17.0.0.0")]
         private void InitConnection() {
             this._connection = new global::System.Data.OleDb.OleDbConnection();
-            this._connection.ConnectionString = global::WindowsFormsApp1.Properties.Settings.Default.HospitalConnectionString;
+            this._connection.ConnectionString = global::HospitalApp.Properties.Settings.Default.HospitalConnectionString;
         }
         
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
@@ -6877,7 +6877,7 @@ namespace WindowsFormsApp1.HospitalDataSetTableAdapters {
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "17.0.0.0")]
         private void InitConnection() {
             this._connection = new global::System.Data.OleDb.OleDbConnection();
-            this._connection.ConnectionString = global::WindowsFormsApp1.Properties.Settings.Default.HospitalConnectionString;
+            this._connection.ConnectionString = global::HospitalApp.Properties.Settings.Default.HospitalConnectionString;
         }
         
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
@@ -7213,7 +7213,7 @@ namespace WindowsFormsApp1.HospitalDataSetTableAdapters {
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "17.0.0.0")]
         private void InitConnection() {
             this._connection = new global::System.Data.OleDb.OleDbConnection();
-            this._connection.ConnectionString = global::WindowsFormsApp1.Properties.Settings.Default.HospitalConnectionString;
+            this._connection.ConnectionString = global::HospitalApp.Properties.Settings.Default.HospitalConnectionString;
         }
         
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
@@ -7677,7 +7677,7 @@ namespace WindowsFormsApp1.HospitalDataSetTableAdapters {
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "17.0.0.0")]
         private void InitConnection() {
             this._connection = new global::System.Data.OleDb.OleDbConnection();
-            this._connection.ConnectionString = global::WindowsFormsApp1.Properties.Settings.Default.HospitalConnectionString;
+            this._connection.ConnectionString = global::HospitalApp.Properties.Settings.Default.HospitalConnectionString;
         }
         
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
@@ -7855,7 +7855,7 @@ namespace WindowsFormsApp1.HospitalDataSetTableAdapters {
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "17.0.0.0")]
         private void InitConnection() {
             this._connection = new global::System.Data.OleDb.OleDbConnection();
-            this._connection.ConnectionString = global::WindowsFormsApp1.Properties.Settings.Default.HospitalConnectionString;
+            this._connection.ConnectionString = global::HospitalApp.Properties.Settings.Default.HospitalConnectionString;
         }
         
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
@@ -8025,7 +8025,7 @@ namespace WindowsFormsApp1.HospitalDataSetTableAdapters {
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "17.0.0.0")]
         private void InitConnection() {
             this._connection = new global::System.Data.OleDb.OleDbConnection();
-            this._connection.ConnectionString = global::WindowsFormsApp1.Properties.Settings.Default.HospitalConnectionString;
+            this._connection.ConnectionString = global::HospitalApp.Properties.Settings.Default.HospitalConnectionString;
         }
         
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
