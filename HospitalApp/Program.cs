@@ -1,7 +1,4 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Threading.Tasks;
 using System.Windows.Forms;
 
 namespace HospitalApp
@@ -16,6 +13,17 @@ namespace HospitalApp
         {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
+
+            Screensaver screensaver = new Screensaver();
+            DateTime dateTime = DateTime.Now + TimeSpan.FromSeconds(2.5);
+            screensaver.Show();
+            while (DateTime.Now < dateTime)
+            {
+                Application.DoEvents();
+            }
+            screensaver.Close();
+            screensaver.Dispose();
+
             Application.Run(new MainForm());
         }
     }
