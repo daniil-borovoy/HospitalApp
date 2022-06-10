@@ -23,7 +23,8 @@ namespace HospitalApp
                 timer1.Enabled = false;
                 return;
             }
-            Opacity += 0.01;
+            if (Opacity < 100)
+                Opacity += 0.01;
             progressBar1.Value++;
         }
 

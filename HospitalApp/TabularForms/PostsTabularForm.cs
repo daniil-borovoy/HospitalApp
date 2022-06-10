@@ -27,7 +27,7 @@ namespace HospitalApp.TabularForms
 
         private void button1_Click(object sender, EventArgs e)
         {
-            this.должностиBindingSource.Filter = "НаименованиеДолжности LIKE '%" + textBox1.Text + "%'";
+            this.должностиBindingSource.Filter = string.Format("НаименованиеДолжности LIKE '%{0}%'", textBox1.Text);
         }
 
         private void button3_Click(object sender, EventArgs e)
